@@ -1,0 +1,101 @@
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type:y proximity;
+}
+
+.navbar,#home,#contact{
+        background-color: #AC87C5;
+    }
+
+
+
+.my-element{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+  .my-element1{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+
+  .service-item:hover{
+    box-shadow: 0 10px 20px rgba(11, 42, 219, 0.1); /* Adjust the values based on your preference */
+}
+
+.mail{
+    color: white;
+}
+
+.mail:hover{
+    color: blue;
+    letter-spacing: 1px;
+}
+
+.bi .bi-envelope{
+    color: white;
+}
+
+.bi .bi-linkedin{
+    color: white;
+}
+.bi .bi-linkedin:hover{
+    color: blue;
+    letter-spacing: 1px;   
+}
+
+
+
+
+.nav-link{
+    color: white;
+    transition: all ease .4s;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color:black;
+    letter-spacing: 1px;
+}
+
+
+.foot{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.foot1{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.bi.bi-linkedin{
+      color: #16D5FF;
+      font-size: 25px;
+}
+
+.bi.bi-envelope{
+    color: black;
+    font-size: 25px;
+}
+
+.foot:hover,
+.foot1:hover{
+    color: black;
+    letter-spacing: 1px;
+}
